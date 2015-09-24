@@ -8,7 +8,7 @@ A demo is worth a thousand pictures: TODO: Add demo.
 
 Import the scripts. 
 
-```
+```html
 <link href="bootstrap.css" rel="stylesheet" />
 <link href="bootstrap.slight-tables.css" rel="stylesheet" />
 
@@ -19,7 +19,7 @@ Import the scripts.
 
 Create a standard Bootstrap table. 
 
-```
+```html
 <div class="container">
     <div class="row">
             <table id="table" class="table table-striped">
@@ -46,8 +46,7 @@ Create a standard Bootstrap table.
 
 Create a new `SlightTable`. 
 
-```
-<script>
+```js
 $(function () {
     var selector = $("#table");
     var table = new SlightTable(selector, {
@@ -56,7 +55,6 @@ $(function () {
         resizable: false // Should it use the WebKit resizable feature. 
     });
 });
-</script>
 ```
 
 ## License 
