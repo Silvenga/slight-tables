@@ -51,8 +51,8 @@ $(function () {
     var selector = $("#table");
     var table = new SlightTable(selector, {
         "maxCols": 5, // Hide columns greater than this number
-        maxRowOptions: [10, 20, 50, 100],
-        resizable: false // Should it use the WebKit resizable feature. 
+        "maxRowOptions": [10, 20, 50, 100],
+        "resizable": false // Should it use the WebKit resizable feature. 
     });
 });
 ```
