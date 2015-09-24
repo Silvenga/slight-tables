@@ -2,7 +2,7 @@
 
 Big data, small space - Slight Tables, a Bootstrap table plugin. Ever had a lot of data, lots of rows and lots of columns, but didn't have the screen real estate? Slight tables attempt to fix this problem. 
 
-A demo is worth a thousand pictures: TODO: Add demo. 
+A demo is worth a thousand pictures: http://silvenga.github.io/slight-tables/
 
 ## Setup
 
